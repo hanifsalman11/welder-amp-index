@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeldAmpIndex — MIG/TIG/Stick Welder Settings, Wire Speed & Breaker Calculator (2026)</title>
+  <meta name="description" content="Interactive welding amperage, wire feed speed (IPM), arc voltage, and 240V NEMA 6-50 breaker calculators for Miller, Lincoln, Hobart, YesWelder, PrimeWeld, and ESAB machines.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/welder-amp-index/">
+  <link rel="alternate" type="application/rss+xml" title="WeldAmpIndex RSS Feed" href="https://hanifsalman11.github.io/welder-amp-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-red-500 text-white px-2 py-0.5 rounded font-black">WELD</span>AmpIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Multi%2BProcess%2BMIG%2BTIG%2BStick%2BWelder%2B200A%2BDual%2BVoltage%2B120V%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-red-500 hover:bg-red-400 text-white font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop Multi-Process Welders on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">MIG, TIG & Stick Welder Settings & Circuit Database</h1>
+      <p class="text-zinc-400 mt-3 text-base sm:text-lg">Select your welder model or metal thickness below to dial in exact Amperage, Wire Feed Speed (IPM), Arc Voltage, Shielding Gas CFH, and NEC 240V breaker sizing.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search welder or metal (e.g. Millermatic 211, Lincoln 215, YesWelder 205, Hobart 140, 1/4 Steel...)" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-red-500">
+      </div>
+    </div>
+
+    <div id="weldGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="hobart-handler-210-mvp-mig-welder-settings-wire-speed-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-red-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-red-500 text-white px-2.5 py-0.5 rounded">210A Max | 30% Duty</span>
+            <span class="text-xs text-zinc-400">30A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-red-400 transition">Hobart Handler 210 MVP MIG Welder Settings Calculator</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Interactive Hobart Handler 210 MVP MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 210A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-red-400">Open Wire Speed & Amperage Chart →</span>
+        </a>
+        <a href="lincoln-electric-power-mig-215-mpi-multi-process-settings-wire-speed-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-red-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-red-500 text-white px-2.5 py-0.5 rounded">215A Max | 30% Duty</span>
+            <span class="text-xs text-zinc-400">30A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-red-400 transition">Lincoln Electric Power MIG 215 MPi Multi-Process Settings Calculator</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Interactive Lincoln Electric Power MIG 215 MPi Multi-Process settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 215A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-red-400">Open Wire Speed & Amperage Chart →</span>
+        </a>
+        <a href="miller-millermatic-211-auto-set-mig-welder-settings-wire-speed-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-red-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-red-500 text-white px-2.5 py-0.5 rounded">210A Max | 40% Duty</span>
+            <span class="text-xs text-zinc-400">30A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-red-400 transition">Miller Millermatic 211 Auto-Set MIG Welder Settings Calculator</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Interactive Miller Millermatic 211 Auto-Set MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 210A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-red-400">Open Wire Speed & Amperage Chart →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500">
+    <p>© 2026 WeldAmpIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('weldGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

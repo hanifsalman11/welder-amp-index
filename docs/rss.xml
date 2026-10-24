@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WeldAmpIndex AWS Welding Settings & Circuit Database</title>
+    <link>https://hanifsalman11.github.io/welder-amp-index/</link>
+    <description>Interactive MIG, TIG & Stick Welder Amperage, Wire Feed Speed & Breaker Calculators</description>
+    <atom:link href="https://hanifsalman11.github.io/welder-amp-index/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+    <item>
+      <title>Hobart Handler 210 MVP MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/hobart-handler-210-mvp-mig-welder-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/hobart-handler-210-mvp-mig-welder-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Hobart Handler 210 MVP MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 210A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>Lincoln Electric Power MIG 215 MPi Multi-Process Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/lincoln-electric-power-mig-215-mpi-multi-process-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/lincoln-electric-power-mig-215-mpi-multi-process-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Lincoln Electric Power MIG 215 MPi Multi-Process settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 215A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>Miller Millermatic 211 Auto-Set MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/miller-millermatic-211-auto-set-mig-welder-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/miller-millermatic-211-auto-set-mig-welder-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Miller Millermatic 211 Auto-Set MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 210A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+  </channel>
+</rss>
