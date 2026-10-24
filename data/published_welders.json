@@ -28,5 +28,35 @@
     "duty_pct": 30,
     "breaker_a": 30,
     "date": "2026-10-24"
+  },
+  {
+    "welder_name": "Hobart Handler 140 115V MIG Welder",
+    "slug": "hobart-handler-140-115v-mig-welder-settings-wire-speed-calculator",
+    "title": "Hobart Handler 140 115V MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Hobart Handler 140 115V MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 140A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 140,
+    "duty_pct": 20,
+    "breaker_a": 20,
+    "date": "2026-10-24"
+  },
+  {
+    "welder_name": "YesWelder MIG-205DS-B Multi-Process Inverter",
+    "slug": "yeswelder-mig-205ds-b-multi-process-inverter-settings-wire-speed-calculator",
+    "title": "YesWelder MIG-205DS-B Multi-Process Inverter Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive YesWelder MIG-205DS-B Multi-Process Inverter settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 205,
+    "duty_pct": 60,
+    "breaker_a": 30,
+    "date": "2026-10-24"
+  },
+  {
+    "welder_name": "YesWelder TIG-200P AC/DC Aluminum TIG Welder",
+    "slug": "yeswelder-tig-200p-acdc-aluminum-tig-welder-settings-wire-speed-calculator",
+    "title": "YesWelder TIG-200P AC/DC Aluminum TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive YesWelder TIG-200P AC/DC Aluminum TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 60,
+    "breaker_a": 30,
+    "date": "2026-10-24"
   }
 ]
