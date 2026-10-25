@@ -88,5 +88,35 @@
     "duty_pct": 30,
     "breaker_a": 30,
     "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Titanium Easy-Flux 125 Amp Welder",
+    "slug": "titanium-easy-flux-125-amp-welder-settings-wire-speed-calculator",
+    "title": "Titanium Easy-Flux 125 Amp Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Titanium Easy-Flux 125 Amp Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 125A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 125,
+    "duty_pct": 30,
+    "breaker_a": 20,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Lincoln Electric Weld-Pak 180i MP DV",
+    "slug": "lincoln-electric-weld-pak-180i-mp-dv-settings-wire-speed-calculator",
+    "title": "Lincoln Electric Weld-Pak 180i MP DV Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Lincoln Electric Weld-Pak 180i MP DV settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 180A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 180,
+    "duty_pct": 30,
+    "breaker_a": 30,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Miller Multimatic 220 AC/DC Multi-Process",
+    "slug": "miller-multimatic-220-acdc-multi-process-settings-wire-speed-calculator",
+    "title": "Miller Multimatic 220 AC/DC Multi-Process Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Miller Multimatic 220 AC/DC Multi-Process settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 220,
+    "duty_pct": 40,
+    "breaker_a": 30,
+    "date": "2026-10-25"
   }
 ]
