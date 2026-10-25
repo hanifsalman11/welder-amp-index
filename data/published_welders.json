@@ -58,5 +58,35 @@
     "duty_pct": 60,
     "breaker_a": 30,
     "date": "2026-10-24"
+  },
+  {
+    "welder_name": "PrimeWeld TIG225X 225A AC/DC Pulse TIG Welder",
+    "slug": "primeweld-tig225x-225a-acdc-pulse-tig-welder-settings-wire-speed-calculator",
+    "title": "PrimeWeld TIG225X 225A AC/DC Pulse TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive PrimeWeld TIG225X 225A AC/DC Pulse TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 225A), wire feed speed (212 IPM @ 1/8\"), voltage, and 35A breaker size.",
+    "max_amps": 225,
+    "duty_pct": 60,
+    "breaker_a": 35,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "PrimeWeld MIG180 180A Dual-Voltage Welder",
+    "slug": "primeweld-mig180-180a-dual-voltage-welder-settings-wire-speed-calculator",
+    "title": "PrimeWeld MIG180 180A Dual-Voltage Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive PrimeWeld MIG180 180A Dual-Voltage Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 180A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 180,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Titanium Unlimited 200 Multi-Process Welder",
+    "slug": "titanium-unlimited-200-multi-process-welder-settings-wire-speed-calculator",
+    "title": "Titanium Unlimited 200 Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Titanium Unlimited 200 Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 30,
+    "breaker_a": 30,
+    "date": "2026-10-25"
   }
 ]
