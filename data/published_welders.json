@@ -148,5 +148,35 @@
     "duty_pct": 25,
     "breaker_a": 25,
     "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Everlast PowerTIG 200DV AC/DC TIG Welder",
+    "slug": "everlast-powertig-200dv-acdc-tig-welder-settings-wire-speed-calculator",
+    "title": "Everlast PowerTIG 200DV AC/DC TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Everlast PowerTIG 200DV AC/DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Everlast Cyclone 200E MIG Welder",
+    "slug": "everlast-cyclone-200e-mig-welder-settings-wire-speed-calculator",
+    "title": "Everlast Cyclone 200E MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Everlast Cyclone 200E MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Forney Easy Weld 140 MP Multi-Process",
+    "slug": "forney-easy-weld-140-mp-multi-process-settings-wire-speed-calculator",
+    "title": "Forney Easy Weld 140 MP Multi-Process Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Forney Easy Weld 140 MP Multi-Process settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 140A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 140,
+    "duty_pct": 30,
+    "breaker_a": 20,
+    "date": "2026-10-25"
   }
 ]
