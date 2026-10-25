@@ -118,5 +118,35 @@
     "duty_pct": 40,
     "breaker_a": 30,
     "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Miller Diversion 180 AC/DC TIG Welder",
+    "slug": "miller-diversion-180-acdc-tig-welder-settings-wire-speed-calculator",
+    "title": "Miller Diversion 180 AC/DC TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Miller Diversion 180 AC/DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 180A), wire feed speed (212 IPM @ 1/8\"), voltage, and 25A breaker size.",
+    "max_amps": 180,
+    "duty_pct": 35,
+    "breaker_a": 25,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "ESAB Rebel EMP 215ic Multi-Process Welder",
+    "slug": "esab-rebel-emp-215ic-multi-process-welder-settings-wire-speed-calculator",
+    "title": "ESAB Rebel EMP 215ic Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive ESAB Rebel EMP 215ic Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 240A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 240,
+    "duty_pct": 25,
+    "breaker_a": 30,
+    "date": "2026-10-25"
+  },
+  {
+    "welder_name": "ESAB Rogue ET 200iP Pro DC TIG Welder",
+    "slug": "esab-rogue-et-200ip-pro-dc-tig-welder-settings-wire-speed-calculator",
+    "title": "ESAB Rogue ET 200iP Pro DC TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive ESAB Rogue ET 200iP Pro DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 25A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 25,
+    "breaker_a": 25,
+    "date": "2026-10-25"
   }
 ]
