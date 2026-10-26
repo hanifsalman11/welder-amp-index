@@ -178,5 +178,35 @@
     "duty_pct": 30,
     "breaker_a": 20,
     "date": "2026-10-25"
+  },
+  {
+    "welder_name": "Forney 220 MP Multi-Process Welder",
+    "slug": "forney-220-mp-multi-process-welder-settings-wire-speed-calculator",
+    "title": "Forney 220 MP Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Forney 220 MP Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 220,
+    "duty_pct": 30,
+    "breaker_a": 30,
+    "date": "2026-10-26"
+  },
+  {
+    "welder_name": " Vulcan OmniPro 220 Multi-Process Welder",
+    "slug": "vulcan-omnipro-220-multi-process-welder-settings-wire-speed-calculator",
+    "title": " Vulcan OmniPro 220 Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive  Vulcan OmniPro 220 Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 220,
+    "duty_pct": 30,
+    "breaker_a": 30,
+    "date": "2026-10-26"
+  },
+  {
+    "welder_name": "Vulcan ProTIG 205 AC/DC TIG Welder",
+    "slug": "vulcan-protig-205-acdc-tig-welder-settings-wire-speed-calculator",
+    "title": "Vulcan ProTIG 205 AC/DC TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Vulcan ProTIG 205 AC/DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 205,
+    "duty_pct": 25,
+    "breaker_a": 30,
+    "date": "2026-10-26"
   }
 ]
