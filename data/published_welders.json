@@ -208,5 +208,35 @@
     "duty_pct": 25,
     "breaker_a": 30,
     "date": "2026-10-26"
+  },
+  {
+    "welder_name": " Eastwood Elite MP200i Multi-Process Welder",
+    "slug": "eastwood-elite-mp200i-multi-process-welder-settings-wire-speed-calculator",
+    "title": " Eastwood Elite MP200i Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive  Eastwood Elite MP200i Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 30,
+    "breaker_a": 30,
+    "date": "2026-10-26"
+  },
+  {
+    "welder_name": "Tooliom 200M 200A Synergic MIG Welder",
+    "slug": "tooliom-200m-200a-synergic-mig-welder-settings-wire-speed-calculator",
+    "title": "Tooliom 200M 200A Synergic MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Tooliom 200M 200A Synergic MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 60,
+    "breaker_a": 30,
+    "date": "2026-10-26"
+  },
+  {
+    "welder_name": "ARCCAPTAIN MIG200 6-in-1 Multi-Process Welder",
+    "slug": "arccaptain-mig200-6-in-1-multi-process-welder-settings-wire-speed-calculator",
+    "title": "ARCCAPTAIN MIG200 6-in-1 Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive ARCCAPTAIN MIG200 6-in-1 Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 60,
+    "breaker_a": 30,
+    "date": "2026-10-26"
   }
 ]
