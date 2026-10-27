@@ -268,5 +268,35 @@
     "duty_pct": 40,
     "breaker_a": 30,
     "date": "2026-10-26"
+  },
+  {
+    "welder_name": "1/8-Inch Mild Steel & Auto Frame Fabrication",
+    "slug": "18-inch-mild-steel-auto-frame-fabrication-settings-wire-speed-calculator",
+    "title": "1/8-Inch Mild Steel & Auto Frame Fabrication Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 1/8-Inch Mild Steel & Auto Frame Fabrication settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 130A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 130,
+    "duty_pct": 35,
+    "breaker_a": 20,
+    "date": "2026-10-27"
+  },
+  {
+    "welder_name": "16-Gauge Automotive Sheet Metal Bodywork",
+    "slug": "16-gauge-automotive-sheet-metal-bodywork-settings-wire-speed-calculator",
+    "title": "16-Gauge Automotive Sheet Metal Bodywork Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 16-Gauge Automotive Sheet Metal Bodywork settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 65A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 65,
+    "duty_pct": 60,
+    "breaker_a": 20,
+    "date": "2026-10-27"
+  },
+  {
+    "welder_name": "1/8-Inch 6061 Aluminum AC TIG Welding Setup",
+    "slug": "18-inch-6061-aluminum-ac-tig-welding-setup-settings-wire-speed-calculator",
+    "title": "1/8-Inch 6061 Aluminum AC TIG Welding Setup Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 1/8-Inch 6061 Aluminum AC TIG Welding Setup settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 145A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 145,
+    "duty_pct": 50,
+    "breaker_a": 30,
+    "date": "2026-10-27"
   }
 ]
