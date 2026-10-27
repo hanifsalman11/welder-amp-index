@@ -298,5 +298,35 @@
     "duty_pct": 50,
     "breaker_a": 30,
     "date": "2026-10-27"
+  },
+  {
+    "welder_name": "Thin Metal",
+    "slug": "thin-metal-settings-wire-speed-calculator",
+    "title": "Thin Metal Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Thin Metal settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-27"
+  },
+  {
+    "welder_name": "Steel",
+    "slug": "steel-settings-wire-speed-calculator",
+    "title": "Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-27"
+  },
+  {
+    "welder_name": "Exhaust Pipe",
+    "slug": "exhaust-pipe-settings-wire-speed-calculator",
+    "title": "Exhaust Pipe Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Exhaust Pipe settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-27"
   }
 ]
