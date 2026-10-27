@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/welder-amp-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>16 Gauge Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/16-gauge-steel-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/16-gauge-steel-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 16 Gauge Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>Beginners Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/beginners-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/beginners-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Beginners settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>.035 Wire Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/035-wire-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/035-wire-settings-wire-speed-calculator.html</guid>
+      <description>Interactive .035 Wire settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
       <title>Exhaust Pipe Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
       <link>https://hanifsalman11.github.io/welder-amp-index/exhaust-pipe-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/exhaust-pipe-settings-wire-speed-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/welder-amp-index/primeweld-tig225x-225a-acdc-pulse-tig-welder-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/primeweld-tig225x-225a-acdc-pulse-tig-welder-settings-wire-speed-calculator.html</guid>
       <description>Interactive PrimeWeld TIG225X 225A AC/DC Pulse TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 225A), wire feed speed (212 IPM @ 1/8"), voltage, and 35A breaker size.</description>
-    </item>
-    <item>
-      <title>YesWelder TIG-200P AC/DC Aluminum TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/yeswelder-tig-200p-acdc-aluminum-tig-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/yeswelder-tig-200p-acdc-aluminum-tig-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive YesWelder TIG-200P AC/DC Aluminum TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>YesWelder MIG-205DS-B Multi-Process Inverter Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/yeswelder-mig-205ds-b-multi-process-inverter-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/yeswelder-mig-205ds-b-multi-process-inverter-settings-wire-speed-calculator.html</guid>
-      <description>Interactive YesWelder MIG-205DS-B Multi-Process Inverter settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Hobart Handler 140 115V MIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/hobart-handler-140-115v-mig-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/hobart-handler-140-115v-mig-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Hobart Handler 140 115V MIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 140A), wire feed speed (212 IPM @ 1/8"), voltage, and 20A breaker size.</description>
     </item>
   </channel>
 </rss>
