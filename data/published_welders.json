@@ -448,5 +448,35 @@
     "duty_pct": 35,
     "breaker_a": 30,
     "date": "2026-10-28"
+  },
+  {
+    "welder_name": "Plasma Cutter",
+    "slug": "plasma-cutter-settings-wire-speed-calculator",
+    "title": "Plasma Cutter Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Plasma Cutter settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
+  },
+  {
+    "welder_name": "Flux 135",
+    "slug": "flux-135-settings-wire-speed-calculator",
+    "title": "Flux 135 Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Flux 135 settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
+  },
+  {
+    "welder_name": "Helmet",
+    "slug": "helmet-settings-wire-speed-calculator",
+    "title": "Helmet Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Helmet settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
   }
 ]
