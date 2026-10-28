@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/welder-amp-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>211 Pro Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/211-pro-mig-welder-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/211-pro-mig-welder-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 211 Pro Mig Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>211 Pro Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/211-pro-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/211-pro-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 211 Pro settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>3Mm Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/3mm-steel-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/3mm-steel-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 3Mm Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
       <title>Mild Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
       <link>https://hanifsalman11.github.io/welder-amp-index/mild-steel-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/mild-steel-settings-wire-speed-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/welder-amp-index/miller-diversion-180-acdc-tig-welder-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/miller-diversion-180-acdc-tig-welder-settings-wire-speed-calculator.html</guid>
       <description>Interactive Miller Diversion 180 AC/DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 180A), wire feed speed (212 IPM @ 1/8"), voltage, and 25A breaker size.</description>
-    </item>
-    <item>
-      <title>Miller Multimatic 220 AC/DC Multi-Process Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/miller-multimatic-220-acdc-multi-process-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/miller-multimatic-220-acdc-multi-process-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Miller Multimatic 220 AC/DC Multi-Process settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Lincoln Electric Weld-Pak 180i MP DV Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/lincoln-electric-weld-pak-180i-mp-dv-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/lincoln-electric-weld-pak-180i-mp-dv-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Lincoln Electric Weld-Pak 180i MP DV settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 180A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Titanium Easy-Flux 125 Amp Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/titanium-easy-flux-125-amp-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/titanium-easy-flux-125-amp-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Titanium Easy-Flux 125 Amp Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 125A), wire feed speed (212 IPM @ 1/8"), voltage, and 20A breaker size.</description>
     </item>
   </channel>
 </rss>

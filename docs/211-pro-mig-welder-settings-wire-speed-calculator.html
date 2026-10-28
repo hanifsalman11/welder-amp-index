@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>211 Pro Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+  <meta name="description" content="Interactive 211 Pro Mig Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/welder-amp-index/211-pro-mig-welder-settings-wire-speed-calculator.html">
+  <meta property="og:title" content="211 Pro Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)">
+  <meta property="og:description" content="Interactive 211 Pro Mig Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/welder-amp-index/211-pro-mig-welder-settings-wire-speed-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "211 Pro Mig Welder Welding Settings & Wire Speed Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What thickness of steel can the 211 Pro Mig Welder weld?", "acceptedAnswer": {"@type": "Answer", "text": "With 200 Amps of maximum output, the 211 Pro Mig Welder can weld from 24-gauge sheet metal (at 30\u201340 Amps with 0.023\" wire) up to 3/8-Inch (single/multi-pass) & 1/4-Inch (single-pass) using 0.030\" or 0.035\" wire and proper joint beveling."}}, {"@type": "Question", "name": "What wire speed (IPM) and voltage should I use for 1/8-inch steel on the 211 Pro Mig Welder?", "acceptedAnswer": {"@type": "Answer", "text": "For 1/8-inch (0.125\" / 11-gauge) mild steel using 0.030\" ER70S-6 solid wire and 75/25 Argon/CO2 gas, set voltage to 18.5V \u2013 19.5V and wire feed speed to 212 \u2013 230 Inches Per Minute (IPM) (~125 Amps)."}}, {"@type": "Question", "name": "What size breaker and outlet do I need for the 211 Pro Mig Welder?", "acceptedAnswer": {"@type": "Answer", "text": "On 240V operation, install a NEMA 6-50R receptacle backed by a 30-Amp 2-pole circuit breaker. If running on a 120V outlet, use a dedicated 20-Amp breaker with a 12 AWG cord so the breaker does not trip at 90\u2013125A output."}}]}]}</script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-red-500 text-white px-2 py-0.5 rounded font-black">WELD</span>AmpIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Multi%2BProcess%2BMIG%2BTIG%2BStick%2BWelder%2B200A%2BDual%2BVoltage%2B120V%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-red-500 hover:bg-red-400 text-white font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop Multi-Process Welders on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-red-500 text-white px-3 py-1 rounded-full">Max Output: 200A (35% Duty)</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">MIG / TIG / Stick</span>
+        <span class="text-xs font-semibold bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full">120V / 240V Dual | 30A Breaker | Max: 3/8-Inch (single/multi-pass) & 1/4-Inch (single-pass)</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">211 Pro Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</h1>
+      <div class="mt-4 bg-zinc-900 border-l-4 border-red-500 p-4 rounded-r-xl text-sm text-zinc-200 leading-relaxed">
+        <strong>AWS CWI Welding Parameters Summary:</strong> Rated at 200 Amps peak output (35% duty cycle) on 120V / 240V Dual power, the 211 Pro Mig Welder (MIG / TIG / Stick) comfortably welds up to 3/8-Inch (single/multi-pass) & 1/4-Inch (single-pass). Using the American Welding Society (AWS) baseline of 1 Amp per 0.001" of material thickness, welding 1/8-inch (0.125") mild steel requires ~125 Amps, 18.5 Volts, and ~212 IPM wire feed speed with 0.030" ER70S-6 wire and 25 CFH of 75% Argon / 25% CO2 (C25) shielding gas.
+      </div>
+    </div>
+
+    <!-- INTERACTIVE MIG/TIG/STICK AMPERAGE, VOLTAGE & WIRE FEED SPEED CALCULATOR -->
+    <section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive 211 Pro Mig Welder Dial-In Settings Calculator</h2>
+      <p class="text-xs text-zinc-400 mb-6">Select your metal thickness, welding process, and wire/electrode diameter to calculate exact Amperage, Arc Voltage, Wire Feed Speed (IPM), and Shielding Gas flow (CFH).</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="thickSlider" class="text-zinc-300">Metal Thickness (Thousandths of an Inch)</label>
+              <span id="thickLabel" class="text-red-400 font-bold">1/8" (0.125" / 3.2mm)</span>
+            </div>
+            <input id="thickSlider" type="range" min="40" max="375" step="5" value="125" class="w-full accent-red-500 cursor-pointer">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="procSelect" class="block text-xs font-medium text-zinc-400 mb-1">Welding Process & Metal</label>
+              <select id="procSelect" class="w-full bg-zinc-950 border border-zinc-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-red-500">
+                <option value="mig_steel" selected>MIG Solid Wire (C25 Gas - Steel)</option>
+                <option value="flux_steel">Flux-Core Gasless (E71T-GS - Steel)</option>
+                <option value="tig_steel">DC TIG (100% Argon - Steel/Stainless)</option>
+                <option value="tig_alum">AC TIG (100% Argon - 6061 Aluminum)</option>
+                <option value="stick_7018">Stick SMAW (E7018 / E6011 Rod)</option>
+              </select>
+            </div>
+            <div>
+              <label for="wireSelect" class="block text-xs font-medium text-zinc-400 mb-1">Wire / Tungsten / Rod Size</label>
+              <select id="wireSelect" class="w-full bg-zinc-950 border border-zinc-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-red-500">
+                <option value="0.023">0.023" (0.6mm) Wire / 1/16" Tungsten</option>
+                <option value="0.030" selected>0.030" (0.8mm) Wire / 3/32" Tungsten</option>
+                <option value="0.035">0.035" (0.9mm) Wire / 1/8" Rod</option>
+                <option value="0.045">0.045" (1.2mm) Heavy Wire / 5/32" Rod</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-zinc-950 border border-red-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-red-400 font-bold">Target Amps & Volts</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="ampOut">125</span>A <span class="text-base font-bold text-red-400">@ <span id="voltOut">19.0</span>V</span></div>
+            <p id="capStatusOut" class="text-xs text-emerald-400 font-semibold mt-1">✅ Within 200A Limit</p>
+          </div>
+
+          <div class="bg-zinc-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">Wire Speed & Gas</span>
+            <div id="ipmOut" class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">215 <span class="text-sm font-normal text-zinc-400">IPM</span></div>
+            <p id="gasOut" class="text-xs text-zinc-400 mt-1">Gas: 25 CFH (75/25 C25)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-red-950/40 border border-red-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="weldAdviceBanner" class="text-sm text-red-100 font-medium"></div>
+        <a id="dynamicWeldBtn" href="https://www.amazon.com/s?k=Multi%2BProcess%2BMIG%2BTIG%2BStick%2BWelder%2B200A%2BDual%2BVoltage%2B120V%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-red-500 hover:bg-red-400 text-white font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched Welding Consumables on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Complete 211 Pro Mig Welder Shop Setup & Consumable Kit</h2>
+        <span class="text-xs text-zinc-400">AWS D1.1 & NEC Article 630 Rated</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-red-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-red-500/10 text-red-400 border border-red-500/20 px-2.5 py-0.5 rounded">200A Welder Unit</span>
+              <span class="text-sm font-bold text-emerald-400">$289 - $1,399</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">211 Pro Mig Welder (120V / 240V Dual)</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">🔥 Delivers 200A output at 35% duty cycle with smooth arc starts and thermal overload protection.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=211+Pro+Mig+Welder+Welder&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-red-500 hover:bg-red-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-red-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-red-500/10 text-red-400 border border-red-500/20 px-2.5 py-0.5 rounded">1/1/1/1 True-Color Hood</span>
+              <span class="text-sm font-bold text-emerald-400">$79 - $289</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">Panoramic 1/1/1/1 Optical Clarity True-Color Auto-Darkening Welding Helmet (4 Arc Sensors)</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">🔥 Eliminates the traditional green lens tint so you can clearly read the liquid puddle edge and toe tie-in on MIG and TIG welds.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=True+Color+Auto+Darkening+Welding+Helmet+1%2F1%2F1%2F1+4+Arc+Sensor&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-red-500 hover:bg-red-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-red-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-red-500/10 text-red-400 border border-red-500/20 px-2.5 py-0.5 rounded">NEC 630 Power & Gas Kit</span>
+              <span class="text-sm font-bold text-emerald-400">$69 - $169</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">8 AWG or 10 AWG 3-Conductor NEMA 6-50P to 6-50R (240V) + Brass CGA-580 Argon/CO2 Flowmeter Regulator</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">🔥 Prevents voltage drop during high-inrush arc striking on a 30A circuit and meters exact 20–30 CFH shielding gas flow.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=NEMA+6-50+Extension+Cord+8+AWG+50A+Welder+Argon+Flowmeter+Regulator&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-red-500 hover:bg-red-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-red-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-red-500/10 text-red-400 border border-red-500/20 px-2.5 py-0.5 rounded">Wire, Tips & Rolling Cart</span>
+              <span class="text-sm font-bold text-emerald-400">$59 - $159</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">ER70S-6 .030" & E71T-GS Flux-Core Wire Spools, Contact Tips & 3-Tier Tilted Welding Cart</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">🔥 Includes dual gas-cylinder safety chains and copper contact tips matched to 0.023", 0.030", and 0.035" wire.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=ER70S-6+030+MIG+Welding+Wire+Heavy+Duty+3+Tier+Welding+Cart&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-red-500 hover:bg-red-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- METAL THICKNESS & SETTINGS CHART TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">211 Pro Mig Welder Mild Steel MIG Reference Chart (75/25 Argon/CO2)</h2>
+      <div class="overflow-x-auto bg-zinc-900 border border-zinc-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-800 bg-zinc-950/60 text-zinc-400 uppercase text-xs">
+              <th class="py-3.5 px-4">Steel Thickness</th>
+              <th class="py-3.5 px-4 text-red-400">Target Amperage</th>
+              <th class="py-3.5 px-4">Arc Voltage Range</th>
+              <th class="py-3.5 px-4 text-emerald-400">Wire Feed Speed (IPM)</th>
+              <th class="py-3.5 px-4">Machine Capability</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">18 Gauge (0.048" / 1.2mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">50 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">15.5V – 16.5V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">155 IPM (0.023" Solid)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">✅ Single-Pass</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">16 Gauge (0.060" / 1.5mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">65 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">16.5V – 17.5V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">180 IPM (0.023" / 0.030")</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">✅ Single-Pass</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">1/8 Inch (0.125" / 3.2mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">125 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">18.5V – 19.5V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">220 IPM (0.030" Solid)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">✅ Single-Pass</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">3/16 Inch (0.188" / 4.8mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">180 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">20.5V – 21.5V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">285 IPM (0.030" / 0.035")</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">✅ Single-Pass</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">1/4 Inch (0.250" / 6.4mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">215 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">22.5V – 24.0V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">340 IPM (0.035" Solid)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">⚠️ Bevel / Multi-Pass</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">3/8 Inch (0.375" / 9.5mm)</td>
+          <td class="py-3 px-4 font-bold text-red-400">275 Amps</td>
+          <td class="py-3 px-4 text-zinc-300">25.0V – 27.0V</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">410 IPM (0.035" / 0.045")</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">⚠️ Bevel / Multi-Pass</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FABRICATION CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">AWS CWI Pre-Weld Polarity & Setup Checklist</h2>
+        <span id="weldBadge" class="text-xs font-bold bg-zinc-800 text-red-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-red-500 rounded cursor-pointer weld-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>AWS Step 1:</strong> Grind all mill scale, rust, paint, and galvanized zinc coatings at least 1 inch back from the joint; bare shiny metal is mandatory for porosity-free short-circuit MIG and TIG welds.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-red-500 rounded cursor-pointer weld-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>AWS Step 2:</strong> Set correct polarity before striking an arc: Solid Wire (ER70S-6) with C25 shielding gas requires DCEP (Direct Current Electrode Positive), while Gasless Flux-Core (E71T-GS) requires DCEN (Electrode Negative).</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-red-500 rounded cursor-pointer weld-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>AWS Step 3:</strong> Maintain a tight 3/8-inch (9.5mm) wire stick-out (CTWD) for short-circuit MIG; excessive stick-out drops amperage, causes ropey cold beads, and blows away shielding gas coverage.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-red-500 rounded cursor-pointer weld-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>AWS Step 4:</strong> Size your workshop circuit per NEC Article 630: with a 35% duty cycle at 200A output, use a dedicated 30A breaker and 8 AWG or 10 AWG 3-Conductor NEMA 6-50P to 6-50R (240V).</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (211 Pro Mig Welder)</h2>
+      <div class="space-y-4"><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What thickness of steel can the 211 Pro Mig Welder weld?</h3><p class='text-sm text-zinc-300 leading-relaxed'>With 200 Amps of maximum output, the 211 Pro Mig Welder can weld from 24-gauge sheet metal (at 30–40 Amps with 0.023" wire) up to 3/8-Inch (single/multi-pass) & 1/4-Inch (single-pass) using 0.030" or 0.035" wire and proper joint beveling.</p></div><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What wire speed (IPM) and voltage should I use for 1/8-inch steel on the 211 Pro Mig Welder?</h3><p class='text-sm text-zinc-300 leading-relaxed'>For 1/8-inch (0.125" / 11-gauge) mild steel using 0.030" ER70S-6 solid wire and 75/25 Argon/CO2 gas, set voltage to 18.5V – 19.5V and wire feed speed to 212 – 230 Inches Per Minute (IPM) (~125 Amps).</p></div><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What size breaker and outlet do I need for the 211 Pro Mig Welder?</h3><p class='text-sm text-zinc-300 leading-relaxed'>On 240V operation, install a NEMA 6-50R receptacle backed by a 30-Amp 2-pole circuit breaker. If running on a 120V outlet, use a dedicated 20-Amp breaker with a 12 AWG cord so the breaker does not trip at 90–125A output.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500 px-4">
+    <p>© 2026 WeldAmpIndex. Independent AWS Welding Parameters & Electrical Sizing Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const machineMaxAmps = 200;
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const thickSlider = document.getElementById('thickSlider');
+    const procSelect = document.getElementById('procSelect');
+    const wireSelect = document.getElementById('wireSelect');
+    const thickLabel = document.getElementById('thickLabel');
+    const ampOut = document.getElementById('ampOut');
+    const voltOut = document.getElementById('voltOut');
+    const capStatusOut = document.getElementById('capStatusOut');
+    const ipmOut = document.getElementById('ipmOut');
+    const gasOut = document.getElementById('gasOut');
+    const weldAdviceBanner = document.getElementById('weldAdviceBanner');
+    const dynamicWeldBtn = document.getElementById('dynamicWeldBtn');
+
+    function formatThicknessLabel(thou) {
+      const mm = (thou * 0.0254).toFixed(1);
+      if (thou <= 50) return `18 Gauge (0.${thou.toString().padStart(3, '0')}" / ${mm}mm)`;
+      if (thou <= 65) return `16 Gauge (0.${thou.toString().padStart(3, '0')}" / ${mm}mm)`;
+      if (thou <= 80) return `14 Gauge (0.${thou.toString().padStart(3, '0')}" / ${mm}mm)`;
+      if (thou <= 110) return `12 Gauge (0.${thou}"" / ${mm}mm)`;
+      if (thou <= 135) return `1/8" Plate (0.${thou}" / ${mm}mm)`;
+      if (thou <= 195) return `3/16" Plate (0.${thou}" / ${mm}mm)`;
+      if (thou <= 260) return `1/4" Plate (0.${thou}" / ${mm}mm)`;
+      return `3/8" Heavy Plate (0.${thou}" / ${mm}mm)`;
+    }
+
+    function recalculateWeld() {
+      const thou = parseInt(thickSlider.value, 10);
+      const proc = procSelect.value;
+      const wireDia = wireSelect.value;
+
+      thickLabel.textContent = formatThicknessLabel(thou);
+
+      let calcAmps = thou;
+      if (proc === 'tig_alum') calcAmps = Math.round(thou * 1.15);
+      else if (proc === 'tig_steel') calcAmps = Math.round(thou * 0.90);
+      else if (proc === 'flux_steel') calcAmps = Math.round(thou * 0.95);
+
+      const calcVolts = (14.0 + (calcAmps * 0.042)).toFixed(1);
+
+      let ipmMult = 1.70;
+      if (wireDia === '0.023') ipmMult = 3.10;
+      else if (wireDia === '0.030') ipmMult = 1.75;
+      else if (wireDia === '0.035') ipmMult = 1.35;
+      else ipmMult = 0.85;
+
+      const calcIpm = Math.min(650, Math.round(calcAmps * ipmMult));
+
+      ampOut.textContent = calcAmps;
+      voltOut.textContent = calcVolts;
+
+      if (calcAmps <= machineMaxAmps) {
+        capStatusOut.textContent = `✅ Single-Pass OK (${calcAmps}A / ${machineMaxAmps}A Max)`;
+        capStatusOut.className = "text-xs text-emerald-400 font-semibold mt-1";
+      } else {
+        capStatusOut.textContent = `⚠️ Needs Bevel & Multi-Pass (${machineMaxAmps}A Max)`;
+        capStatusOut.className = "text-xs text-amber-400 font-bold mt-1";
+      }
+
+      let searchItem = "ER70S-6+030+MIG+Welding+Wire+Spool";
+      if (proc === 'mig_steel') {
+        ipmOut.innerHTML = `${calcIpm} <span class="text-sm font-normal text-zinc-400">IPM</span>`;
+        gasOut.textContent = "DCEP | 25 CFH (75% Argon / 25% CO2)";
+        searchItem = `ER70S-6+${wireDia.replace('0.', '')}+MIG+Welding+Wire+Spool`;
+        weldAdviceBanner.innerHTML = `🔥 <strong>MIG Setup Spec:</strong> Run <strong>DCEP Polarity</strong> with <strong>${wireDia}" ER70S-6 Solid Wire</strong> at <strong>${calcVolts}V / ${calcIpm} IPM</strong> and 25 CFH C25 gas.`;
+      } else if (proc === 'flux_steel') {
+        ipmOut.innerHTML = `${calcIpm} <span class="text-sm font-normal text-zinc-400">IPM</span>`;
+        gasOut.textContent = "DCEN Polarity | No Gas Required";
+        searchItem = `E71T-GS+${wireDia.replace('0.', '')}+Gasless+Flux+Core+Welding+Wire`;
+        weldAdviceBanner.innerHTML = `🔥 <strong>Flux-Core Spec:</strong> Switch welder lugs to <strong>DCEN (Electrode Negative)</strong> with <strong>${wireDia}" E71T-GS Wire</strong> at <strong>${calcVolts}V / ${calcIpm} IPM</strong>.`;
+      } else if (proc === 'tig_steel') {
+        ipmOut.innerHTML = `3/32" <span class="text-sm font-normal text-zinc-400">2% Lanthanated</span>`;
+        gasOut.textContent = "DCEN | 18 CFH (100% Pure Argon)";
+        searchItem = "3/32+2+Percent+Lanthanated+Tungsten+Electrodes+ER70S-2";
+        weldAdviceBanner.innerHTML = `🔥 <strong>DC TIG Spec:</strong> Use <strong>DCEN Polarity</strong>, a sharp <strong>3/32" Blue 2% Lanthanated Tungsten</strong>, #7 Gas Lens Cup, and 18 CFH Pure Argon.`;
+      } else if (proc === 'tig_alum') {
+        ipmOut.innerHTML = `3/32" <span class="text-sm font-normal text-zinc-400">AC Balance 70%</span>`;
+        gasOut.textContent = "AC High-Freq | 22 CFH (100% Argon)";
+        searchItem = "ER4043+ER5356+TIG+Aluminum+Filler+Rod+Tungsten";
+        weldAdviceBanner.innerHTML = `🔥 <strong>AC Aluminum TIG Spec:</strong> Set <strong>AC Frequency to 120Hz</strong>, <strong>AC Balance to 70% EN</strong>, and feed <strong>3/32" ER4043 / ER5356 Filler Rod</strong>.`;
+      } else {
+        ipmOut.innerHTML = `1/8" <span class="text-sm font-normal text-zinc-400">E7018 / E6011</span>`;
+        gasOut.textContent = "DCEP | Flux-Coated SMAW Electrode";
+        searchItem = "E7018+1/8+Stick+Welding+Rods+Electrode+Oven";
+        weldAdviceBanner.innerHTML = `🔥 <strong>Stick SMAW Spec:</strong> Run <strong>DCEP Polarity</strong> at <strong>${calcAmps} Amps</strong> with dry <strong>E7018 Low-Hydrogen</strong> or deep-penetrating <strong>E6011 Rods</strong>.`;
+      }
+
+      dynamicWeldBtn.href = `https://${amzDomain}/s?k=${searchItem}&tag=${amzTag}`;
+    }
+
+    thickSlider.addEventListener('input', recalculateWeld);
+    procSelect.addEventListener('change', recalculateWeld);
+    wireSelect.addEventListener('change', recalculateWeld);
+    recalculateWeld();
+
+    const checks = document.querySelectorAll('.weld-check');
+    const badge = document.getElementById('weldBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>
