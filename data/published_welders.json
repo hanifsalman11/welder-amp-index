@@ -418,5 +418,35 @@
     "duty_pct": 35,
     "breaker_a": 30,
     "date": "2026-10-28"
+  },
+  {
+    "welder_name": "211 Mig Welder",
+    "slug": "211-mig-welder-settings-wire-speed-calculator",
+    "title": "211 Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 211 Mig Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
+  },
+  {
+    "welder_name": "211 Mig Welder 907614",
+    "slug": "211-mig-welder-907614-settings-wire-speed-calculator",
+    "title": "211 Mig Welder 907614 Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 211 Mig Welder 907614 settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
+  },
+  {
+    "welder_name": "Flux 135 Pro",
+    "slug": "flux-135-pro-settings-wire-speed-calculator",
+    "title": "Flux 135 Pro Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Flux 135 Pro settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-28"
   }
 ]
