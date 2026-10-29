@@ -538,5 +538,25 @@
     "duty_pct": 35,
     "breaker_a": 30,
     "date": "2026-10-29"
+  },
+  {
+    "welder_name": "210 Mvp",
+    "slug": "210-mvp-settings-wire-speed-calculator",
+    "title": "210 Mvp Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 210 Mvp settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 210A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 210,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-29"
+  },
+  {
+    "welder_name": "140 Price",
+    "slug": "140-price-settings-wire-speed-calculator",
+    "title": "140 Price Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 140 Price settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 140A), wire feed speed (212 IPM @ 1/8\"), voltage, and 20A breaker size.",
+    "max_amps": 140,
+    "duty_pct": 35,
+    "breaker_a": 20,
+    "date": "2026-10-29"
   }
 ]
