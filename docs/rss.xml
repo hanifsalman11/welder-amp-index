@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/welder-amp-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Dp200 Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/dp200-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/dp200-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Dp200 settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>205Ds Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/205ds-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/205ds-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 205Ds settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
+      <title>Vs Arccaptain Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/vs-arccaptain-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/vs-arccaptain-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Vs Arccaptain settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
       <title>Helmet Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
       <link>https://hanifsalman11.github.io/welder-amp-index/helmet-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/helmet-settings-wire-speed-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/welder-amp-index/eastwood-elite-mp200i-multi-process-welder-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/eastwood-elite-mp200i-multi-process-welder-settings-wire-speed-calculator.html</guid>
       <description>Interactive  Eastwood Elite MP200i Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Vulcan ProTIG 205 AC/DC TIG Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/vulcan-protig-205-acdc-tig-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/vulcan-protig-205-acdc-tig-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Vulcan ProTIG 205 AC/DC TIG Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title> Vulcan OmniPro 220 Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/vulcan-omnipro-220-multi-process-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/vulcan-omnipro-220-multi-process-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive  Vulcan OmniPro 220 Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Forney 220 MP Multi-Process Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/forney-220-mp-multi-process-welder-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/forney-220-mp-multi-process-welder-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Forney 220 MP Multi-Process Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 220A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
     </item>
   </channel>
 </rss>
