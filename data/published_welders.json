@@ -508,5 +508,35 @@
     "duty_pct": 35,
     "breaker_a": 30,
     "date": "2026-10-29"
+  },
+  {
+    "welder_name": "Mig-205Ds",
+    "slug": "mig-205ds-settings-wire-speed-calculator",
+    "title": "Mig-205Ds Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Mig-205Ds settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 205,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-29"
+  },
+  {
+    "welder_name": "Mig-205Ds Pro",
+    "slug": "mig-205ds-pro-settings-wire-speed-calculator",
+    "title": "Mig-205Ds Pro Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Mig-205Ds Pro settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 205A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 205,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-29"
+  },
+  {
+    "welder_name": "Mig 250 Pro",
+    "slug": "mig-250-pro-settings-wire-speed-calculator",
+    "title": "Mig 250 Pro Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Mig 250 Pro settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 250A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 250,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-10-29"
   }
 ]
