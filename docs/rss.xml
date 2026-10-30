@@ -7,6 +7,18 @@
     <atom:link href="https://hanifsalman11.github.io/welder-amp-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>140 Mig Welder Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/140-mig-welder-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/140-mig-welder-settings-wire-speed-calculator.html</guid>
+      <description>Interactive 140 Mig Welder settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 140A), wire feed speed (212 IPM @ 1/8"), voltage, and 20A breaker size.</description>
+    </item>
+    <item>
+      <title>Reviews Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
+      <link>https://hanifsalman11.github.io/welder-amp-index/reviews-settings-wire-speed-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/welder-amp-index/reviews-settings-wire-speed-calculator.html</guid>
+      <description>Interactive Reviews settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
+    </item>
+    <item>
       <title>Mct-520 Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
       <link>https://hanifsalman11.github.io/welder-amp-index/mct-520-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/mct-520-settings-wire-speed-calculator.html</guid>
@@ -173,18 +185,6 @@
       <link>https://hanifsalman11.github.io/welder-amp-index/steel-settings-wire-speed-calculator.html</link>
       <guid>https://hanifsalman11.github.io/welder-amp-index/steel-settings-wire-speed-calculator.html</guid>
       <description>Interactive Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>Thin Metal Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/thin-metal-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/thin-metal-settings-wire-speed-calculator.html</guid>
-      <description>Interactive Thin Metal settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
-    </item>
-    <item>
-      <title>1/8-Inch 6061 Aluminum AC TIG Welding Setup Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)</title>
-      <link>https://hanifsalman11.github.io/welder-amp-index/18-inch-6061-aluminum-ac-tig-welding-setup-settings-wire-speed-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/welder-amp-index/18-inch-6061-aluminum-ac-tig-welding-setup-settings-wire-speed-calculator.html</guid>
-      <description>Interactive 1/8-Inch 6061 Aluminum AC TIG Welding Setup settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 145A), wire feed speed (212 IPM @ 1/8"), voltage, and 30A breaker size.</description>
     </item>
   </channel>
 </rss>
