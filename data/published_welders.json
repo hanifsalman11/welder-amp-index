@@ -608,5 +608,35 @@
     "duty_pct": 35,
     "breaker_a": 20,
     "date": "2026-10-30"
+  },
+  {
+    "welder_name": "1Mm Steel",
+    "slug": "1mm-steel-settings-wire-speed-calculator",
+    "title": "1Mm Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 1Mm Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-11-04"
+  },
+  {
+    "welder_name": "6Mm Steel",
+    "slug": "6mm-steel-settings-wire-speed-calculator",
+    "title": "6Mm Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 6Mm Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-11-04"
+  },
+  {
+    "welder_name": "Mp200 Pro",
+    "slug": "mp200-pro-settings-wire-speed-calculator",
+    "title": "Mp200 Pro Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Mp200 Pro settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-11-04"
   }
 ]
