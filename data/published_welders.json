@@ -638,5 +638,15 @@
     "duty_pct": 35,
     "breaker_a": 30,
     "date": "2026-11-04"
+  },
+  {
+    "welder_name": "Aluminum",
+    "slug": "aluminum-settings-wire-speed-calculator",
+    "title": "Aluminum Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive Aluminum settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-11-07"
   }
 ]
