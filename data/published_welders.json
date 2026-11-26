@@ -658,5 +658,15 @@
     "duty_pct": 35,
     "breaker_a": 20,
     "date": "2026-11-11"
+  },
+  {
+    "welder_name": "2Mm Steel",
+    "slug": "2mm-steel-settings-wire-speed-calculator",
+    "title": "2Mm Steel Settings Calculator: Amps, Wire Speed (IPM) & Breaker (2026)",
+    "description": "Interactive 2Mm Steel settings chart & calculator. Compute exact MIG/TIG/Stick amperage (up to 200A), wire feed speed (212 IPM @ 1/8\"), voltage, and 30A breaker size.",
+    "max_amps": 200,
+    "duty_pct": 35,
+    "breaker_a": 30,
+    "date": "2026-11-26"
   }
 ]
